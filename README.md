@@ -35,7 +35,7 @@ music_playlist/
 │   └── data_global.txt
 │   └── data_playlists.txt
 │   └── data_users.txt
-|
+│
 └── README.md
 ```
 
