@@ -1,7 +1,7 @@
-#include "auth.h"
-#include "ui.h"
-#include "data.h"
-#include "globals.h"
+#include "../include/auth.h"
+#include "../include/ui.h"
+#include "../include/data.h"
+#include "../include/globals.h"
 #include <iostream>
 #include <iomanip>
 #include <algorithm>

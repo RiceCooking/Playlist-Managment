@@ -1,8 +1,8 @@
-#include "crud.h"
-#include "ui.h"
-#include "auth.h"
-#include "data.h"
-#include "globals.h"
+#include "../include/crud.h"
+#include "../include/ui.h"
+#include "../include/auth.h"
+#include "../include/data.h"
+#include "../include/globals.h"
 #include <iostream>
 #include <iomanip>
 #include <limits>

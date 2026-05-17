@@ -1,5 +1,5 @@
-#include "sort.h"
-#include "ui.h"
+#include "../include/sort.h"
+#include "../include/ui.h"
 #include <iostream>
 #include <iomanip>
 #include <limits>

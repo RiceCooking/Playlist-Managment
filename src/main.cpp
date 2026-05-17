@@ -1,6 +1,6 @@
-#include "globals.h"
-#include "data.h"
-#include "pages.h"
+#include "../include/globals.h"
+#include "../include/data.h"
+#include "../include/pages.h"
 #include <clocale>
 
 // ============================================================

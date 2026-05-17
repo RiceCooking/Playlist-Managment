@@ -1,5 +1,5 @@
-#include "ui.h"
-#include "globals.h"
+#include "../include/ui.h"
+#include "../include/globals.h"
 #include <iostream>
 #include <iomanip>
 #include <algorithm>
