@@ -59,8 +59,8 @@ void DaftarLaguGlobal(const PlaylistGlobal& pg, size_t indexLagu = 0);
 // FUNGSI TAMPILKAN PLAYLIST
 // ============================================================
 
-void tampilkanPlaylistSaya         (const User& u);
-void tampilkanSemuaPlaylistPublik  ();
-void tampilkanPlaylistGlobal       ();
-void tampilkanStatistikAdmin       ();
-void tampilkanSemuaPlaylistDanGlobalAdmin();
+void tampilkanPlaylistSaya                                                         (const User& u);
+void tampilkanSemuaPlaylistPublik                                                               ();
+void tampilkanPlaylistGlobal                                                                    ();
+void tampilkanStatistikAdmin(const int &totalUser, const int &totalPlaylist, const int &totalLagu);
+void tampilkanSemuaPlaylistDanGlobalAdmin                                                       ();

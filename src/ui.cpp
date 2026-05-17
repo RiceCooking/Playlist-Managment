@@ -300,21 +300,10 @@ void tampilkanPlaylistGlobal() {
     }
 }
 
-void tampilkanStatistikAdmin() {
-    int totalUser     = (int)pengguna.size();
-    int totalPlaylist = 0;
-    int totalLagu     = 0;
-    for (const auto& user : pengguna) {
-        totalPlaylist += (int)user.musiklist.size();
-        for (const auto& pl : user.musiklist) totalLagu += (int)pl.lagu.size();
-    }
-    totalPlaylist += (int)playlistGlobal.size();
-    for (const auto& pg : playlistGlobal) totalLagu += (int)pg.lagu.size();
-
+void tampilkanStatistikAdmin(const int &totalUser, const int &totalPlaylist, const int &totalLagu) {
     printHeader("STATISTIK DATA");
     cout << left << setw(20) << "Total User"     << ": " << totalUser     << endl;
-    cout << left << setw(20) << "Total Playlist" << ": " << totalPlaylist
-         << " (Termasuk " << playlistGlobal.size() << " Playlist Global)" << endl;
+    cout << left << setw(20) << "Total Playlist" << ": " << totalPlaylist << endl;
     cout << left << setw(20) << "Total Lagu"     << ": " << totalLagu     << endl;
 }
 

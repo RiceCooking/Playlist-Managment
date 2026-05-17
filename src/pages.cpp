@@ -127,7 +127,7 @@ void halamanUtamaAdmin(int userindex) {
 
         cout << endl << endl;
 
-        if      (opsi == 1) { tampilkanStatistikAdmin(); pause(); }
+        if      (opsi == 1) { tampilkanStatistikAdmin(totalUser, totalPlaylist, totalLagu); pause(); }
         else if (opsi == 2) { tampilkanSemuaPlaylistDanGlobalAdmin(); pause(); }
         else if (opsi == 3) { buatPlaylistGlobal(); }
         else if (opsi == 4) { updatePlaylistGlobal(); }
