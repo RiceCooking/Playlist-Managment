@@ -10,7 +10,7 @@ using namespace std;
 // ============================================================
 
 void saveData() {
-    ofstream fileUser("data_users.txt");
+    ofstream fileUser("data/data_users.txt");
     if (fileUser.is_open()) {
         for (const auto& user : pengguna) {
             fileUser << user.username << "|"
@@ -21,7 +21,7 @@ void saveData() {
         fileUser.close();
     }
 
-    ofstream filePlaylist("data_playlists.txt");
+    ofstream filePlaylist("data/data_playlists.txt");
     if (filePlaylist.is_open()) {
         for (const auto& user : pengguna) {
             for (const auto& pl : user.musiklist) {
@@ -41,7 +41,7 @@ void saveData() {
         filePlaylist.close();
     }
 
-    ofstream fileGlobal("data_global.txt");
+    ofstream fileGlobal("data/data_global.txt");
     if (fileGlobal.is_open()) {
         for (const auto& pg : playlistGlobal) {
             fileGlobal << pg.judul      << "|"
@@ -69,7 +69,7 @@ void loadData() {
 
     // 1. Load user
     {
-        ifstream fileUser("data_users.txt");
+        ifstream fileUser("data/data_users.txt");
         if (fileUser.is_open()) {
             string line;
             while (getline(fileUser, line)) {
@@ -92,7 +92,7 @@ void loadData() {
 
     // 2. Load playlist user
     {
-        ifstream filePlaylist("data_playlists.txt");
+        ifstream filePlaylist("data/data_playlists.txt");
         if (filePlaylist.is_open()) {
             string line;
             while (getline(filePlaylist, line)) {
@@ -142,7 +142,7 @@ void loadData() {
 
     // 3. Load playlist global
     {
-        ifstream fileGlobal("data_global.txt");
+        ifstream fileGlobal("data/data_global.txt");
         if (fileGlobal.is_open()) {
             string line;
             while (getline(fileGlobal, line)) {
