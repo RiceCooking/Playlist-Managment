@@ -16,8 +16,8 @@ music_playlist/
 │   └── data_users.txt
 │
 ├── dokumentasi/
-│   └── B2_HSCENTER_ManajemenPlaylistMusik_Laporan.pdf
 │   └── B2_HSCENTER_ManajemenPlaylistMusik_Flowchart.drawio
+│   └── B2_HSCENTER_ManajemenPlaylistMusik_Laporan.pdf
 │
 ├── src/
 │   ├── main.cpp
@@ -41,7 +41,6 @@ music_playlist/
 │   ├── search.h
 │   └── pages.h
 │
-├── Laporan_Playlist-Managment.pdf
 └── README.md
 ```
 
