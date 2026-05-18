@@ -9,6 +9,16 @@ A modular C++ console application for managing music playlists with features suc
 ```txt
 music_playlist/
 │
+│
+├── data/
+│   └── data_global.txt
+│   └── data_playlists.txt
+│   └── data_users.txt
+│
+├── dokumentasi/
+│   └── B2_HSCENTER_ManajemenPlaylistMusik_Laporan.pdf
+│   └── B2_HSCENTER_ManajemenPlaylistMusik_Flowchart.drawio
+│
 ├── src/
 │   ├── main.cpp
 │   ├── ui.cpp
@@ -30,11 +40,6 @@ music_playlist/
 │   ├── sort.h
 │   ├── search.h
 │   └── pages.h
-│
-├── data/
-│   └── data_global.txt
-│   └── data_playlists.txt
-│   └── data_users.txt
 │
 ├── Laporan_Playlist-Managment.pdf
 └── README.md
