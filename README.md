@@ -36,6 +36,7 @@ music_playlist/
 │   └── data_playlists.txt
 │   └── data_users.txt
 │
+├── Laporan_Playlist-Managment.pdf
 └── README.md
 ```
 
